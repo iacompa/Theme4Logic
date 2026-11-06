@@ -1,0 +1,42 @@
+{
+  "name": "Pro Tools Dark",
+  "slug": "pro-tools",
+  "tone": "neutral",
+  "accent": "#0078D7",
+  "transport_lcd": "#39FF14",
+  "selection": "#3A3A3A",
+  "region_palette": ["#39ff14", "#7dff52", "#b7ff8b", "#49d77d", "#2fbf79", "#1da5a2", "#3a9cc6", "#5d7fb5", "#8a75a6", "#b4789a", "#d79c62", "#b7c747"],
+  "region_palette_hues": [111, 105, 92, 145, 158, 178, 196, 215, 270, 330, 32, 67],
+  "semantics": {
+    "text_primary": "#d6d9dd", "text_secondary": "#a2a4a7", "icon_neutral": "#d6d9dd",
+    "selection": "#3a3a3a", "focus": "#3399ee", "warning": "#e2a53b",
+    "record": "#ff6760", "record_dim": "#bf7771", "meter": "#39ff14", "meter_peak": "#d4ff55"
+  },
+  "colors": {
+    "Arrange.Background": "#2B2B2B",
+    "Arrange.ArrangeGrid_BarLines": "#383838",
+    "Mixer.ChannelStrip_BG_top": "#282828",
+    "Mixer.ChannelStrip_BG_bottom": "#141414",
+    "Mixer.ChannelStrip_Selected": "#333333",
+    "TrackHeader.Background": "#262626",
+    "PianoRoll.BackgroundWhiteKey": "#303030",
+    "PianoRoll.BackgroundBlackKey": "#222222"
+  },
+  "overrides": {
+    "TabBackgroundSelectedColor": "#333333",
+    "Browser/SelectionPrimary": "#404040",
+    "ListRowB": "#222222",
+    "Browser/Column Separator Color": "#383838",
+    "DividerPrimaryColor": "#383838",
+    "DividerSecondaryColor": "#323232",
+    "TransportDisplay/Label": "#3399EE",
+    "FocusRingColor": "#3399ee",
+    "TextTertiaryColor": "#7b7d7f",
+    "TextMutedColor": "#77787a",
+    "GraphPanel/DotSelected": "#3399ee",
+    "RulerLabelCycleOn": "#ffffff",
+    "RulerLabelNormal": "#929396",
+    "RulerLabelCycleOff": "#929396",
+    "RulerLabelCycleSkipOff": "#929396"
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schemaVersion": 1,
+  "name": "Theme4Logic Logic Pro 12 Visual Contract",
+  "runtime": {
+    "product": "Logic Pro",
+    "supportedVersions": [
+      "12.3",
+      "12.4"
+    ],
+    "enforcement": "manifest-gated"
+  },
+  "presetSlugs": [
+    "midnight",
+    "ableton-classic",
+    "ableton-dark",
+    "angst-robot",
+    "fl-studio-fruity",
+    "pro-tools",
+    "studio-one",
+    "reaper",
+    "voice-memos",
+    "dawnamite-dark",
+    "dawnamite-light",
+    "dawnamite-high-contrast",
+    "dawnamite-safe"
+  ],
+  "requiredSurfaces": {
+    "arrange": {
+      "colors": [
+        "ArrangeWorkspaceColor",
+        "ArrangeWorkspaceBrightColor",
+        "TrackHeader/Background",
+        "RulerColor"
+      ],
+      "mixer": []
+    },
+    "mixer": {
+      "colors": [
+        "MainWindowColor",
+        "ChannelstripColor",
+        "ChannelstripSelectedColor"
+      ],
+      "mixer": [
+        "ChannelstripBackground",
+        "ChannelstripBackgroundSelected",
+        "Meter"
+      ]
+    },
+    "library": {
+      "colors": [
+        "LibraryColor",
+        "LibraryColorHeaderBackground",
+        "LibraryColorStageBackground",
+        "LibraryControlColorHeader",
+        "LibraryControlColorStage1",
+        "LibraryControlColorStage2"
+      ],
+      "mixer": []
+    },
+    "new-track": {
+      "colors": [
+        "TableviewColor",
+        "TableView Background Color",
+        "TableViewHeaderTextColor",
+        "ControlTextTitleColor",
+        "TableviewSelectionPrimaryColor",
+        "Browser/SelectionPrimary"
+      ],
+      "mixer": []
+    },
+    "editor": {
+      "colors": [
+        "GIEditorContainerBackground",
+        "GIEditorViewBackground1",
+        "GIEditorViewBackground2",
+        "EditorGridLinePrimary",
+        "EditorGridLineSecondary",
+        "PianoRoll/BackgroundWhiteKey",
+        "PianoRoll/BackgroundBlackKey"
+      ],
+      "mixer": []
+    }
+  },
+  "visualRegions": {
+    "library": {
+      "bounds": [
+        0.0,
+        0.07,
+        0.28,
+        0.98
+      ],
+      "forbiddenHueRanges": [
+        {
+          "name": "stock-yellow",
+          "minimum": 42,
+          "maximum": 68
+        },
+        {
+          "name": "stock-neon-green",
+          "minimum": 86,
+          "maximum": 155
+        }
+      ],
+      "minimumSaturation": 0.55,
+      "minimumValue": 0.45,
+      "maximumRatio": 0.003
+    },
+    "new-track": {
+      "bounds": [
+        0.18,
+        0.16,
+        0.82,
+        0.82
+      ],
+      "forbiddenHueRanges": [
+        {
+          "name": "stock-yellow",
+          "minimum": 42,
+          "maximum": 68
+        },
+        {
+          "name": "stock-neon-green",
+          "minimum": 86,
+          "maximum": 155
+        }
+      ],
+      "minimumSaturation": 0.55,
+      "minimumValue": 0.45,
+      "minimumAccentRatio": 0.002,
+      "maximumRatio": 0.003
+    }
+  },
+  "neutralNavigationRoles": {
+    "colors": [
+      "Browser/Chevron",
+      "Browser/ControlSecondary",
+      "LibraryControlColorStage1",
+      "TableView Scondary Cell Title Color"
+    ],
+    "mustUseSameNeutral": true,
+    "mustNotUsePaletteAccent": true
+  },
+  "allowedAccentRoles": {
+    "colors": [
+      "AccentColor",
+      "ArrangeWorkspaceBrightColor",
+      "BeatsEditor/TempoLine",
+      "BeatsEditor/TempoLineFill",
+      "CustomAccentColor",
+      "FocusRingColor",
+      "GlobalTracksLabelChordNameLoop",
+      "GlobalTracksLabelChordNameLoopEdit",
+      "GlobalTracksRulerLabel",
+      "GraphPanel/Dot",
+      "GraphPanel/DotSelected",
+      "GraphPanel/Graph",
+      "GraphPanel/Status",
+      "PianoRoll/RubberbandOutline",
+      "RulerAutopunchColor",
+      "RulerCycleColor",
+      "RulerCycleColorOnColor",
+      "RulerGridLoopColor",
+      "TransportDisplay/Label",
+      "TransportDisplay/PerformanceMeterAverage",
+      "TransportDisplay/PerformanceMeterAverage_record",
+      "TransportDisplay/PerformanceMeterMax",
+      "TransportDisplay/PerformanceMeterMax_record",
+      "TransportDisplay/SelectedText_record",
+      "TransportDisplay/Text_record"
+    ],
+    "mixer": [
+      "FaderTint",
+      "KnobIndicator",
+      "KnobTint",
+      "Meter",
+      "ScaleLabel"
+    ]
+  },
+  "forbiddenNormalUiColors": [
+    "#0a0a0c",
+    "#2f2925",
+    "#ffffff1a",
+    "#ffffff2b"
+  ],
+  "accessibility": {
+    "minimumContrastRatio": 4.5,
+    "pairs": [
+      {
+        "name": "arrange-primary-text",
+        "foreground": {
+          "section": "colors",
+          "key": "TextColor"
+        },
+        "background": {
+          "section": "colors",
+          "key": "ArrangeWorkspaceColor"
+        }
+      },
+      {
+        "name": "mixer-control-text",
+        "foreground": {
+          "section": "colors",
+          "key": "ControlTextTitleColor"
+        },
+        "background": {
+          "section": "colors",
+          "key": "MainWindowColor"
+        }
+      },
+      {
+        "name": "new-track-header-text",
+        "foreground": {
+          "section": "colors",
+          "key": "TableViewHeaderTextColor"
+        },
+        "background": {
+          "section": "colors",
+          "key": "TableviewColor"
+        }
+      },
+      {
+        "name": "library-navigation",
+        "foreground": {
+          "section": "colors",
+          "key": "Browser/Chevron"
+        },
+        "background": {
+          "section": "colors",
+          "key": "LibraryColor"
+        }
+      },
+      {
+        "name": "library-header-text",
+        "foreground": {
+          "section": "colors",
+          "key": "LibraryControlColorHeader"
+        },
+        "background": {
+          "section": "colors",
+          "key": "LibraryColorHeaderBackground"
+        }
+      },
+      {
+        "name": "library-stage-text",
+        "foreground": {
+          "section": "colors",
+          "key": "LibraryControlColorStage1"
+        },
+        "background": {
+          "section": "colors",
+          "key": "LibraryColor"
+        }
+      },
+      {
+        "name": "library-stage-secondary-text",
+        "minimumContrastRatio": 3.0,
+        "foreground": {
+          "section": "colors",
+          "key": "LibraryControlColorStage2"
+        },
+        "background": {
+          "section": "colors",
+          "key": "LibraryColorStageBackground"
+        }
+      },
+      {
+        "name": "toolbar-glyph",
+        "foreground": {
+          "section": "colors",
+          "key": "ToolbarGlyphColor"
+        },
+        "background": {
+          "section": "colors",
+          "key": "defaultToolbarBackgroundColor"
+        }
+      },
+      {
+        "name": "transport-label",
+        "minimumContrastRatio": 3.0,
+        "darkWindowOnly": true,
+        "foreground": {
+          "section": "colors",
+          "key": "TransportDisplay/Label"
+        },
+        "background": {
+          "section": "colors",
+          "key": "MainWindowColor"
+        }
+      },
+      {
+        "name": "editor-inspector-label",
+        "foreground": {
+          "section": "colors",
+          "key": "EditorInspectorLabelColor"
+        },
+        "background": {
+          "section": "colors",
+          "key": "PianoRoll/InlineInspectorBackground"
+        }
+      },
+      {
+        "name": "table-primary-cell-text",
+        "foreground": {
+          "section": "colors",
+          "key": "TableView Primary Cell Title Color"
+        },
+        "background": {
+          "section": "colors",
+          "key": "TableviewColor"
+        }
+      },
+      {
+        "name": "secondary-label-text",
+        "foreground": {
+          "section": "colors",
+          "key": "TextSecondaryColor"
+        },
+        "background": {
+          "section": "colors",
+          "key": "PanelBackgroundColor"
+        }
+      },
+      {
+        "name": "tertiary-label-text",
+        "minimumContrastRatio": 3.0,
+        "foreground": {
+          "section": "colors",
+          "key": "TextTertiaryColor"
+        },
+        "background": {
+          "section": "colors",
+          "key": "PanelBackgroundColor"
+        }
+      },
+      {
+        "name": "muted-label-text",
+        "minimumContrastRatio": 3.0,
+        "foreground": {
+          "section": "colors",
+          "key": "TextMutedColor"
+        },
+        "background": {
+          "section": "colors",
+          "key": "PanelBackgroundColor"
+        }
+      }
+    ]
+  }
+}

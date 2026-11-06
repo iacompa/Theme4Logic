@@ -1,0 +1,120 @@
+{
+  "name": "Dawnamite Safe",
+  "slug": "dawnamite-safe",
+  "tone": "high_contrast",
+  "accent": "#ffff00",
+  "selection": "#004c99",
+  "transport_lcd": "#ffffff",
+  "region_palette": [
+    "#006b88",
+    "#ff77ff",
+    "#00b8ff",
+    "#66ff99",
+    "#ffd000",
+    "#ffaa00",
+    "#ff6666",
+    "#66e8ff",
+    "#004c99",
+    "#808080",
+    "#ffff00",
+    "#c8c8c8"
+  ],
+  "semantics": {
+    "text_primary": "#ffffff",
+    "text_secondary": "#d0d0d0",
+    "icon_neutral": "#ffffff",
+    "selection": "#004c99",
+    "focus": "#ffff00",
+    "warning": "#ffd000",
+    "record": "#ff6666",
+    "record_dim": "#cc5252",
+    "meter": "#66ff99",
+    "meter_peak": "#ffaa00"
+  },
+  "colors": {
+    "Arrange.Background": "#000000",
+    "Arrange.ArrangeGrid_BarLines": "#4d4d4d",
+    "Mixer.ChannelStrip_BG_top": "#050505",
+    "Mixer.ChannelStrip_BG_bottom": "#000000",
+    "Mixer.ChannelStrip_Selected": "#004c99",
+    "TrackHeader.Background": "#101010",
+    "PianoRoll.BackgroundWhiteKey": "#151515",
+    "PianoRoll.BackgroundBlackKey": "#000000"
+  },
+  "overrides": {
+    "TextColor": "#ffffff",
+    "DividerPrimaryColor": "#808080",
+    "DividerSecondaryColor": "#666666",
+    "FocusRingColor": "#ffff00",
+    "RulerCycleColorOnColor": "#ffff00",
+    "TransportDisplay/Label": "#ffffff",
+    "Browser/SelectionPrimary": "#004c99",
+    "TabBackgroundSelectedColor": "#004c99",
+    "ButtonBackground": "#151515",
+    "ButtonOutline": "#808080",
+    "Knob": "#151515",
+    "KnobIndicator": "#ffff00",
+    "FaderTint": "#ffffff",
+    "KnobTint": "#d0d0d0",
+    "TextTertiaryColor": "#a0a0a0",
+    "TextMutedColor": "#8a8a8a",
+    "LibraryControlColorStage2": "#8a8a8a",
+    "RulerLabelNormal": "#c0c0c0",
+    "RulerLabelCycleOff": "#c0c0c0",
+    "RulerLabelCycleSkipOff": "#c0c0c0"
+  },
+  "region_palette_hues": [
+    193,
+    300,
+    197,
+    140,
+    49,
+    40,
+    1,
+    189,
+    210,
+    1,
+    60,
+    1
+  ],
+  "auto": {
+    "ramp": [
+      [
+        0.0,
+        "#000000"
+      ],
+      [
+        0.08,
+        "#000000"
+      ],
+      [
+        0.14,
+        "#050505"
+      ],
+      [
+        0.21,
+        "#1e1e1e"
+      ],
+      [
+        0.3,
+        "#444444"
+      ],
+      [
+        0.45,
+        "#707070"
+      ],
+      [
+        0.7,
+        "#d0d0d0"
+      ],
+      [
+        0.9,
+        "#ffffff"
+      ],
+      [
+        1.0,
+        "#ffffff"
+      ]
+    ]
+  }
+}

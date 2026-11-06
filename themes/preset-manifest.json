@@ -1,0 +1,106 @@
+[
+  {
+    "title": "Midnight",
+    "slug": "midnight",
+    "palette": "midnight",
+    "tagline": "Deep navy - the original Theme4Logic look",
+    "accent": "#9097cc",
+    "category": "Featured"
+  },
+  {
+    "title": "Ableton Classic",
+    "slug": "ableton-classic",
+    "palette": "ableton",
+    "tagline": "Neutral charcoal with warm orange accents",
+    "accent": "#FF8C00",
+    "category": "DAW-inspired"
+  },
+  {
+    "title": "Ableton Dark",
+    "slug": "ableton-dark",
+    "palette": "ableton-dark",
+    "tagline": "Live-style graphite with cyan transport",
+    "accent": "#2fc6d4",
+    "category": "DAW-inspired"
+  },
+  {
+    "title": "Angst Robot",
+    "slug": "angst-robot",
+    "palette": "angst-robot",
+    "tagline": "Purple cyberpunk with neon highlights",
+    "accent": "#7b68ee",
+    "category": "DAW-inspired"
+  },
+  {
+    "title": "FL Studio",
+    "slug": "fl-studio-fruity",
+    "palette": "fl-studio",
+    "tagline": "Warm brown-orange Fruity edition",
+    "accent": "#e87820",
+    "category": "DAW-inspired"
+  },
+  {
+    "title": "Pro Tools",
+    "slug": "pro-tools",
+    "palette": "pro-tools",
+    "tagline": "Avid charcoal with green LCD transport",
+    "accent": "#0078D7",
+    "category": "DAW-inspired"
+  },
+  {
+    "title": "Studio One",
+    "slug": "studio-one",
+    "palette": "studio-one",
+    "tagline": "PreSonus cool grey & blue",
+    "accent": "#2478ba",
+    "category": "DAW-inspired"
+  },
+  {
+    "title": "Reaper",
+    "slug": "reaper",
+    "palette": "reaper",
+    "tagline": "Flat utilitarian grey with teal",
+    "accent": "#339887",
+    "category": "DAW-inspired"
+  },
+  {
+    "title": "Voice Memos",
+    "slug": "voice-memos",
+    "palette": "voice-memos",
+    "tagline": "OLED black with iOS red accents",
+    "accent": "#ff3b30",
+    "category": "DAW-inspired"
+  },
+  {
+    "title": "Dawnamite Dark",
+    "slug": "dawnamite-dark",
+    "palette": "dawnamite-dark",
+    "tagline": "Cool graphite with a sky-blue playhead",
+    "accent": "#63b3ff",
+    "category": "Dawnamite"
+  },
+  {
+    "title": "Dawnamite Light",
+    "slug": "dawnamite-light",
+    "palette": "dawnamite-light",
+    "tagline": "Soft grey daylight theme (experimental)",
+    "accent": "#005aa8",
+    "category": "Dawnamite"
+  },
+  {
+    "title": "Dawnamite High Contrast",
+    "slug": "dawnamite-high-contrast",
+    "palette": "dawnamite-high-contrast",
+    "tagline": "Pure black, white text, yellow focus",
+    "accent": "#ffff00",
+    "category": "Dawnamite"
+  },
+  {
+    "title": "Dawnamite Safe",
+    "slug": "dawnamite-safe",
+    "palette": "dawnamite-safe",
+    "tagline": "Near-black accessible theme, yellow focus",
+    "accent": "#ffff00",
+    "category": "Dawnamite"
+  }
+]

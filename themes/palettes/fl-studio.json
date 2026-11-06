@@ -1,0 +1,42 @@
+{
+  "name": "FL Studio Fruity",
+  "slug": "fl-studio-fruity",
+  "tone": "warm",
+  "accent": "#E87820",
+  "region_palette": ["#e87820", "#f08a3b", "#d86a22", "#c4522a", "#b98236", "#9b8f54", "#5c9b57", "#468f77", "#3b788e", "#6e76a8", "#9476a8", "#b7705b"],
+  "region_palette_hues": [25, 25, 23, 14, 35, 52, 116, 164, 193, 234, 277, 14],
+  "semantics": {
+    "text_primary": "#b6ada4", "text_secondary": "#9a9188", "icon_neutral": "#c0b7ae",
+    "selection": "#3D2F1E", "focus": "#f0a052", "warning": "#f0a052",
+    "record": "#e85d4a", "record_dim": "#b56e62", "meter": "#e87820", "meter_peak": "#f0b064"
+  },
+  "colors": {
+    "Arrange.Background": "#1E1A16",
+    "Arrange.ArrangeGrid_BarLines": "#3D3020",
+    "Mixer.ChannelStrip_BG_top": "#2A2118",
+    "Mixer.ChannelStrip_BG_bottom": "#1A1410",
+    "Mixer.ChannelStrip_Selected": "#3D2F1E",
+    "TrackHeader.Background": "#231C14",
+    "PianoRoll.BackgroundWhiteKey": "#2E2218",
+    "PianoRoll.BackgroundBlackKey": "#1A1410"
+  },
+  "overrides": {
+    "InspectorColor": "#2A2118",
+    "PanelBackgroundColor": "#2A2118",
+    "PanelHeaderColor": "#2A2118",
+    "MainWindowColor": "#2A2118",
+    "TableviewColor": "#1E1A16",
+    "TableView Background Color": "#1E1A16",
+    "GIEditorContainerBackground": "#1E1A16",
+    "GIEditorViewBackground1": "#1E1A16",
+    "GIEditorViewBackground2": "#1A1613",
+    "ListRowA": "#1E1A16",
+    "ListRowB": "#262018",
+    "ButtonBackground": "#473e35",
+    "TrackHeaderLabelTrackNameSelected": "#c8bfb6",
+    "TrackHeaderLabelTrackNumberSelected": "#a69d94",
+    "RulerLabelNormal": "#918a82",
+    "RulerLabelCycleOff": "#918a82",
+    "RulerLabelCycleSkipOff": "#918a82"
+  }
+}

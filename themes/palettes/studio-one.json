@@ -1,0 +1,50 @@
+{
+  "name": "Studio One",
+  "slug": "studio-one",
+  "tone": "cool",
+  "accent": "#2478ba",
+  "region_palette": ["#2478ba", "#1e88e5", "#2f9bd0", "#4db8d2", "#5da9d5", "#6d91a7", "#4d7591", "#3f6a87", "#7a8bb5", "#8a78b8", "#5573b8", "#3988a9"],
+  "region_palette_hues": [206, 210, 201, 190, 199, 204, 207, 207, 227, 252, 224, 193],
+  "semantics": {
+    "text_primary": "#cccccc", "text_secondary": "#a6a6a7", "icon_neutral": "#d8d8d8",
+    "selection": "#2a4558", "focus": "#1e88e5", "warning": "#d6a64a",
+    "record": "#e56b66", "record_dim": "#b17b78", "meter": "#2478ba", "meter_peak": "#66b6e8"
+  },
+  "colors": {
+    "Arrange.Background": "#191a1e",
+    "Arrange.ArrangeGrid_BarLines": "#2e3338",
+    "Mixer.ChannelStrip_BG_top": "#26282c",
+    "Mixer.ChannelStrip_BG_bottom": "#191a1e",
+    "Mixer.ChannelStrip_Selected": "#333a3e",
+    "TrackHeader.Background": "#2e3338",
+    "PianoRoll.BackgroundWhiteKey": "#26282c",
+    "PianoRoll.BackgroundBlackKey": "#191a1e"
+  },
+  "overrides": {
+    "TextColor": "#cccccc",
+    "ToolbarGlyphColor": "#cccccc",
+    "ToolbarTextColor": "#d8d8d8",
+    "ControlTextTitleColor": "#cccccc",
+    "EditorInspectorLabelColor": "#cccccc",
+    "BeatsEditor/RulerText": "#cccccc",
+    "GraphPanel/AxisLabel": "#cccccc",
+    "TableViewHeaderTextColor": "#a8a8a8",
+    "Browser/ControlPrimary": "#cccccc",
+    "MainWindowColor": "#26282c",
+    "PanelBackgroundColor": "#26282c",
+    "PanelHeaderColor": "#26282c",
+    "InspectorColor": "#26282c",
+    "ChannelstripColor": "#26282c",
+    "TabBackgroundSelectedColor": "#2e4a62",
+    "Browser/SelectionPrimary": "#2a4558",
+    "ListRowA": "#191a1e",
+    "ListRowB": "#1f2125",
+    "DividerPrimaryColor": "#3a3e44",
+    "DividerSecondaryColor": "#32363c",
+    "FocusRingColor": "#1e88e5",
+    "TransportDisplay/Label": "#4a9ad8",
+    "BeatsEditor/SelectionHighlight": "#2a4558",
+    "TrackHeaderLabelTrackNameSelected": "#d8d8d8",
+    "GlobalTracksLabelChordNameLoopEdit": "#1e88e5"
+  }
+}

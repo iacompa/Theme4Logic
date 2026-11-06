@@ -1,0 +1,27 @@
+{
+  "name": "Midnight",
+  "slug": "midnight",
+  "tone": "cool",
+  "accent": "#9097cc",
+  "region_palette": ["#5a8acb", "#6d87d1", "#5474ad", "#8b79c5", "#aa75b6", "#668c9d", "#5a9eab", "#5c8a96", "#7d899d", "#8a7b9b", "#7b7fb0", "#6f85bd"],
+  "region_palette_hues": [215, 222, 218, 250, 308, 195, 186, 190, 214, 286, 236, 218],
+  "semantics": {
+    "text_primary": "#e8eaf5", "text_secondary": "#aeb4c8", "icon_neutral": "#c8cdf0",
+    "selection": "#34406e", "focus": "#aeb7e6", "warning": "#d18a4a",
+    "record": "#f0d0d0", "record_dim": "#caa0a0", "meter": "#5a8acb", "meter_peak": "#d18a4a"
+  },
+  "colors": {
+    "Arrange.Background": "#15151f",
+    "Arrange.ArrangeGrid_BarLines": "#2a2f4a",
+    "Mixer.ChannelStrip_BG_top": "#20243a",
+    "Mixer.ChannelStrip_BG_bottom": "#15151f",
+    "Mixer.ChannelStrip_Selected": "#34406e",
+    "TrackHeader.Background": "#232842",
+    "PianoRoll.BackgroundWhiteKey": "#1a1d2e",
+    "PianoRoll.BackgroundBlackKey": "#15151f"
+  },
+  "overrides": {
+    "TextTertiaryColor": "#7c8090",
+    "TextMutedColor": "#777985"
+  }
+}
